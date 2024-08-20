@@ -1,4 +1,4 @@
-function calculateAge() {
+document.querySelector(".js-button").addEventListener("click", () => {
   //User's Input
   const day = parseInt(document.querySelector("#day").value);
   const month = parseInt(document.querySelector("#month").value);
@@ -98,4 +98,4 @@ function calculateAge() {
 
     document.querySelector("#years").innerHTML = date.getFullYear() - year;
   }
-}
+});
